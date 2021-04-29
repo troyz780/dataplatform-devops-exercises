@@ -19,8 +19,8 @@ Global
 		{28FE27C0-4B02-4B70-A0DF-BA2BD80DFFAA}.Default|Default.ActiveCfg = Default
 		{51ED3B3C-32DC-4C82-9125-E6D36599F723}.Default|Default.ActiveCfg = Default
 		{543084B7-0CCD-4CCF-ABFF-755F323AA515}.Default|Default.ActiveCfg = Default
-		{0E8313B7-95A4-434C-8AF1-231D88D1128D}.Default|Default.ActiveCfg = Default
 		{7207ADDC-2E01-4D93-9921-8ADA4F559ADC}.Default|Default.ActiveCfg = Default
+		{7704A9C8-4B43-4778-8084-57C8730F6371}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

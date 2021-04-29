@@ -3,13 +3,13 @@
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
       <Items>
-        <ConnectionNode Name="localhost,41433:sa">
-          <Created>2021-04-06T21:40:29.7553925-04:00</Created>
+        <ConnectionNode Name="vaim1-dbt-166\troyphan:AIMCO\troy.phan">
+          <Created>2021-04-28T11:16:33.9476935-06:00</Created>
           <Type>SQL</Type>
-          <Server>localhost,41433</Server>
-          <UserName>sa</UserName>
-          <Authentication>SQL</Authentication>
-          <InitialDB>master</InitialDB>
+          <Server>vaim1-dbt-166\troyphan</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
           <LoginTimeout>30</LoginTimeout>
           <ExecutionTimeout>0</ExecutionTimeout>
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
@@ -20,9 +20,9 @@
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
         <FileNode Name="build.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost,41433:False:sa</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>localhost,41433</AssociatedConnSrvName>
-          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:vaim1-dbt-166\troyphan:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>vaim1-dbt-166\troyphan</AssociatedConnSrvName>
+          <AssociatedConnUserName />
           <FullPath>build.sql</FullPath>
         </FileNode>
       </Items>
