@@ -74,8 +74,8 @@
           <FullPath>Reports.schema.sql</FullPath>
         </FileNode>
         <FileNode Name="Reports.TopNCustomers.sfn.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:vaim1-dbt-166\troyphan:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>vaim1-dbt-166\troyphan</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Reports.TopNCustomers.sfn.sql</FullPath>
         </FileNode>
