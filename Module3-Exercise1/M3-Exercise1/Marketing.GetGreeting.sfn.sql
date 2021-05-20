@@ -7,12 +7,19 @@ END
 
 --DROP FUNCTION IF EXISTS Marketing.GetGreeting;
 GO
-CREATE FUNCTION Marketing.GetGreeting()
+CREATE FUNCTION Marketing.GetGreeting(@FirstName Varchar(100), @LastName Varchar(100))
 RETURNS NVARCHAR(MAX)
 AS
 BEGIN
-  --select 'Hello ' message_text
- 
-  return 'hello23423423424234'
+  declare @message varchar(500);
+
+  if (@FirstName is null)
+  begin
+     set @message = 'Dear Customer'
+  end
+  else
+	set @message = 'Dear ' + left(@FirstName, 1) + '. ' + @LastName
+
+ return @message
 END;
 GO
